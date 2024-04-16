@@ -24,12 +24,12 @@ function Navbar() {
     return (
 
         <div className='lg:fixed w-full md:z-10'>
-            <nav className={`${styles.navbar} '  justify-between md:justify-center py-5 mb-[-2px] xl:px-24 lg:px-16 md:px-12 sm:px-10 ' `}  >
+            <nav className={`${styles.navbar} '  justify-between py-5 mb-[-2px] xl:px-24 lg:px-16 md:px-12 md:py-0 sm:px-10 ' `}  >
                 {/* logo */}
 
-                <Link to='/' className={`${styles.logo} md:hidden`}>
+                <Link to='/' className={`${styles.logo}`}>
                     <div className='w-fit'>
-                        <img src={logo} alt='logo' className='w-[52%] object-contain md:w-[100%]' />
+                        <img src={logo} alt='logo' className='w-[52%] object-contain md:w-[86%]' />
                     </div>
                 </Link>
                 <ul className={`${styles.navMenu} 'gap-7 xl:gap-12 lg:gap-8 ' ${isActive ? styles.active : ''}`}>
@@ -52,9 +52,9 @@ function Navbar() {
 
                 </ul>
 
-                {/* <div className='hidden md:block  '>
+                <div className='hidden md:block  '>
                     <Link to='/give' className={`${styles.navLink}`}><Button name="SHOP NOW" /></Link>
-                </div> */}
+                </div>
 
                 <div className={`${styles.hamburger} ${isActive ? styles.active : ''}`} onClick={toggleActiveClass}>
                     <span className={`${styles.bar}`}></span>
