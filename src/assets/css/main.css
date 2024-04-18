@@ -7,15 +7,6 @@
   padding-top: 18px;
 }
 
-/* join section */
-
-.joinSectionImg {
-  background: linear-gradient(45deg, #01385fcc, #01385fcc),
-    url(../images/hands-young-people-different-races-joined-together-52844507-transformed.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 /* header2 section */
 .header2 {
   background: radial-gradient(58.94% 138.79% at 32.53% 35.49%, #0B0B0B 0%, rgba(11, 11, 11, 0.48) 100%), url(../images_new/Pexels\ Photo\ by\ Abuti\ Engidashet.png) ;
@@ -31,22 +22,6 @@
 } */
 #contact {
   z-index: 1;
-}
-
-#contacts2 {
-  display: none;
-}
-#border-control {
-  background-color: #01385f;
-  top: -16px;
-  content: "";
-  /* display: block; */
-  height: 300px;
-  left: 0;
-  position: absolute;
-  transform: translate(-10%, 0);
-  width: 300px;
-  z-index: -1;
 }
 
 @import url("https://fonts.cdnfonts.com/css/leckerli-one");
@@ -120,16 +95,6 @@
 
   .mobile {
     display: block;
-  }
-
-  #contacts,
-  #border-control {
-    display: none;
-  }
-
-  #contacts2 {
-    gap: 20px;
-    display: flex;
   }
 /* 
   section > #connect_img {

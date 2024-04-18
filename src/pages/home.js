@@ -12,8 +12,9 @@ import Welcome from '../sections/welcome.jsx';
 import Connect from '../sections/connect';
 import Messages from '../sections/messages.jsx';
 // import Service from '../sections/serving.jsx';
+import Contact from './contact.jsx';
 
-// import Join from '../sections/join.jsx';
+import Testimonial from '../sections/testimonial.jsx';
 import Footer from '../sections/footer.jsx';
 
 
@@ -25,7 +26,10 @@ function Home() {
             <Welcome />
             <Messages />
             <Connect />
+            <Contact />
+            <Testimonial />
             <Footer />
+            
             {/* <Header src={HeaderImg} src2={HeaderImg2}/>
              
             <PicText />

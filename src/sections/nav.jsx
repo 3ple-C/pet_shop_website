@@ -5,8 +5,7 @@ import { useState } from 'react'
 
 // components
 import Button from '../components/rtcBtn';
-
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
     // adding the states 
@@ -27,33 +26,33 @@ function Navbar() {
             <nav className={`${styles.navbar} '  justify-between py-5 mb-[-2px] xl:px-24 lg:px-16 md:px-12 md:py-0 sm:px-10 ' `}  >
                 {/* logo */}
 
-                <Link to='/' className={`${styles.logo}`}>
+                <HashLink smooth to='/#header' className={`${styles.logo}`}>
                     <div className='w-fit'>
                         <img src={logo} alt='logo' className='w-[52%] object-contain md:w-[86%]' />
                     </div>
-                </Link>
+                </HashLink>
                 <ul className={`${styles.navMenu} 'gap-7 xl:gap-12 lg:gap-8 ' ${isActive ? styles.active : ''}`}>
 
                     <li onClick={removeActive}>
-                        <Link to='/' className={`${styles.navLink} 'font-medium xl:text-base' `}>About Us</Link>
+                        <HashLink smooth to='/#welcome' className={`${styles.navLink} 'font-medium xl:text-base' `}>About Us</HashLink>
                     </li>
                     <li >
-                        <Link to='' className={`${styles.navLink}`}>Our Services</Link>
+                        <HashLink smooth to='/#services' className={`${styles.navLink}`}>Our Services</HashLink>
                     </li>
                     <li onClick={removeActive}>
-                        <Link to='/live' className={`${styles.navLink}`}>Contact Us</Link>
+                        <HashLink smooth to='/#explore' className={`${styles.navLink}`}>Explore</HashLink>
                     </li>
                     <li onClick={removeActive}>
-                        <Link to='/contact' className={`${styles.navLink}`}>FAQ's</Link>
+                        <HashLink smooth to='/#testimonial' className={`${styles.navLink}`}>FAQ's</HashLink>
                     </li>
                     <li onClick={removeActive} className='md:hidden'>
-                        <Link to='/give' className={`${styles.navLink}`}><Button name="Give" /></Link>
+                        <HashLink smooth to='/#contact_us' className={`${styles.navLink}`}><Button name="Contact Us" /></HashLink>
                     </li>
 
                 </ul>
 
                 <div className='hidden md:block  '>
-                    <Link to='/give' className={`${styles.navLink}`}><Button name="SHOP NOW" /></Link>
+                    <HashLink smooth to='/#contact_us' className={`${styles.navLink}`}><Button name="Contact Us" /></HashLink>
                 </div>
 
                 <div className={`${styles.hamburger} ${isActive ? styles.active : ''}`} onClick={toggleActiveClass}>

@@ -2,65 +2,48 @@
 import '../assets/css/main.css'
 
 // Images
-import HeaderImg from '../assets/images/Frame 1627.png';
-import HeaderImg2 from '../assets/images/Frame 1699 (3).png';
-import EmailIcon from '../assets/images/Frame 132.png';
-import Location from '../assets/images/Frame 129.png';
-import Whatsapp from '../assets/images/Frame 131.png';
-import CallIcon from '../assets/images/Frame 130.png';
+import EmailIcon from '../assets/images_new/ic_outline-email.png';
+import Location from '../assets/images_new/mdi_address-marker-outline.png';
+import CallIcon from '../assets/images_new/ic_outline-phone.png';
 
 
 // components
 import Contacts from '../components/contactItems';
 import { Input } from '../components/input';
 import { Textarea } from "../components/input";
-import Navbar from "../sections/nav";
-import Header1 from "../sections/header1";
-import Footer from '../sections/footer';
 import FormHeader from '../components/formHeader';
-import Button from '../components/rtcBtn';
 
 const Contact = () => {
     return (
         <div>
-            <Navbar />
-            <Header1 src={HeaderImg} src2={HeaderImg2} />
 
-            <section className='flex xl:px-28 lg:pt-32 lg:px-10 '  >
-                <div className='w-[50%] flex flex-col gap-12' id='contacts'>
-                    <Contacts source={EmailIcon} name="Email Address" contacts="Info@theresurrectedchurchng.org" />
-                    <Contacts source={Whatsapp} name="Whatsapp" contacts="09139107522" />
-                    <Contacts source={Location} name="Location" contacts="Lagos, Nigeria" />
-                    <Contacts source={CallIcon} name="Phone Number" contacts="09139107522" />
+            <section className='flex flex-col gap-20 lg:pt-3 mt-14 xl:mt-30 lg:mt-28 md:mt-24 md:flex-row md:gap-0'  id='contact_us'>
+                <div className='xl:w-[60%] order-1 bg-black text-white flex flex-col pt-24 ps-8 pb-32 gap-8 md:pb-0 xl:ps-32 xl:pt-32 lg:rounded-e-[20px]' id='contacts'>
+                    <h2 className='text-white text-[32px] leading-[48px] font-bold '>Info</h2>
+                    <Contacts source={EmailIcon} contacts="Info@Petshopng.com" />
+                    <Contacts source={CallIcon} contacts="+234 98889999664" />
+                    <Contacts source={Location} contacts="Amansea, Awka, Anambra state." />
                 </div>
 
-                <div className='lg:relative xl:w-[60%] md:w-[75%] md:mt-[1.85rem] px-4 pt-5 mx-auto' >
-                    <div id='border-control'></div>
+                <div className='lg:relative xl:w-[60%] md:w-[75%] md:order-2 px-4 lg:pe-8' >
 
-                    <div className="bg-white form-container space-y-7 xl:px-7 xl:py-2 xl:rounded-md lg:space-y-10 md:space-y-7 lg:shadow-lg" id='contact' >
-                        <FormHeader header="Send us a message" subHeader="Can’t find what you’re looking for? Need help? Feel free by sending us a message." className='pt-0' />
+                    <div className="bg-white form-container space-y-7 xl:px-20 lg:space-y-10 md:space-y-7" id='contact' >
+                        <FormHeader header="Contact Us" subHeader="Have questions or inquiries? Contact us today! Reach out via phone, email, or fill out the form below. We look forward to hearing from you." className='pt-0' />
 
-                        <div className='md:w-[50%] flex flex-col gap-12' id='contacts2'>
-                            <Contacts source={EmailIcon} name="Email Address" contacts="Info@theresurrectedchurchng.org" />
-                            <Contacts source={Whatsapp} name="Whatsapp" contacts="09139107522" />
-                            <Contacts source={Location} name="Location" contacts="Lagos, Nigeria" />
-                            <Contacts source={CallIcon} name="Phone Number" contacts="09139107522" />
-                        </div>
+                        <form action="https://fabform.io/f/insert-form-id" method="POST" className="space-y-6 lg:space-y-8 md:space-y-6">
+                            <Input type="text" placeholder="Name" />
 
-                        <form action="https://fabform.io/f/insert-form-id" method="POST" className="space-y-6 lg:space-y-10 md:space-y-6 pb-6">
-                            <Input label="Full Name" type="text" placeholder="Full Name" />
+                            <Input  type="email" placeholder="Email" />
 
-                            <Input label="Email" type="email" placeholder="Enter email address" />
+                            <Textarea placeholder="Message" />
 
-                            <Textarea message="Message" placeholder="Write your message" />
-
-                           <Button name="Send Message" />
+                            <div>
+                                <a href='/' className={`bg-[#F8931F] mt-8 text-center w-full rounded block py-5 text-white `}>Send Message</a>
+                            </div>
                         </form>
                     </div>
                 </div>
             </section>
-
-            <Footer className='xl:mt-[35rem] mt-[30rem]' />
         </div>
 
     );
