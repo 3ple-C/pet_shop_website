@@ -31,10 +31,20 @@
 }
 
 @media screen and (min-width: 1367px) {
+  #messages{
+    padding: 0px;
+  }
+  #message{
+    padding: 0px;
+  }
   section {
     width: 100%;
-    padding-left: 180px !important;
-    padding-right: 180px !important;
+    padding-left: 120px !important;
+    padding-right: 120px !important;
+  }
+
+  .welcome{
+    padding: 0px;
   }
   /* pict_text section */
   #mission_img,
@@ -52,7 +62,7 @@
 
   /* messages section */
   #messages {
-    gap: 24px;
+    gap: 28px;
   }
 
   /* message component */
@@ -65,22 +75,24 @@
   .desktop {
     width: 100%;
   }
+ 
+  #explore>div:first-child{
+    padding: 0px 20px;
+  }
 
   /* welcome section */
-  #welcome_img {
-    width: 50%;
-  }
   #welcome_img > img {
     width: 100%;
   }
   #welcome_text {
-    width: 50%;
+    width: 100%;
   }
-
+  #welcome_txt {
+    width: 60%;
+  }
   /* join section */
-  .joinSectionImg {
-    padding-top: 80px;
-    padding-bottom: 100px;
+  #testimonial>div:nth-child(2) {
+    padding: 0px;
   }
 }
 

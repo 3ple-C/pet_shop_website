@@ -2,7 +2,7 @@ const Message = (props) => {
     return (
         <a href="/" className='hover:shadow-lg hover:scale-95 hover:duration-500 duration-500 block w-[45%] md:w-fit px-1 pb-1.5' id='message'>
             <div className='space-y-2 message'>
-                <div className='message'>
+                <div className=''>
                     <img src={props.src} alt="rtc_messages" className=' md:rounded-md' />
                 </div>
 

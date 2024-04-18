@@ -5,7 +5,7 @@ import Text from '../components/textcontainer';
 
 const Services = (props) => {
     return (
-        <section className=''>
+        <div className=''>
             <div className=' px-4 space-y-4 xl:space-y-4 lg:space-x- md:w-[100%] md:px-4 xl:px-2 md:space-y-2  md:order-2' id='welcome_text'>
                 <div className='space-y-6'>
                     <div>
@@ -18,7 +18,7 @@ const Services = (props) => {
                     <Text content={props.text} />
                 </div>
             </div>
-        </section>
+        </div>
     );
 };
 

@@ -18,11 +18,7 @@ nav > ul > li > .navLink {
 /* navbar */
 .navbar {
   top: 0;
-  background: radial-gradient(
-      58.94% 138.79% at 32.53% 35.49%,
-      #0b0b0b 0%,
-      rgba(11, 11, 11, 0.48) 100%
-    );
+  background: black;
 
   display: flex;
   /* justify-content: center; */
@@ -137,7 +133,9 @@ nav > ul > li > .navLink {
 }
 @media screen and (min-width: 1367px) {
   nav {
-    padding: 15px 150px !important;
+    padding: 0px 150px !important;
     /* font-size: px; */
   }
+
+  
 }

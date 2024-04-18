@@ -17,7 +17,7 @@ const Contact = () => {
     return (
         <div>
 
-            <section className='flex flex-col gap-20 lg:pt-3 mt-14 xl:mt-30 lg:mt-28 md:mt-24 md:flex-row md:gap-0'  id='contact_us'>
+            <div className='flex flex-col gap-20 lg:pt-3 mt-14 xl:mt-30 lg:mt-28 md:mt-24 md:flex-row md:gap-0'  id='contact_us'>
                 <div className='xl:w-[60%] order-1 bg-black text-white flex flex-col pt-24 ps-8 pb-32 gap-8 md:pb-0 xl:ps-32 xl:pt-32 lg:rounded-e-[20px]' id='contacts'>
                     <h2 className='text-white text-[32px] leading-[48px] font-bold '>Info</h2>
                     <Contacts source={EmailIcon} contacts="Info@Petshopng.com" />
@@ -43,7 +43,7 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
-            </section>
+            </div>
         </div>
 
     );

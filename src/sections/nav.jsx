@@ -28,7 +28,7 @@ function Navbar() {
 
                 <HashLink smooth to='/#header' className={`${styles.logo}`}>
                     <div className='w-fit'>
-                        <img src={logo} alt='logo' className='w-[52%] object-contain md:w-[86%]' />
+                        <img src={logo} alt='logo' className='w-[52%] object-contain md:w-[66%]' id='nav_img'/>
                     </div>
                 </HashLink>
                 <ul className={`${styles.navMenu} 'gap-7 xl:gap-12 lg:gap-8 ' ${isActive ? styles.active : ''}`}>
