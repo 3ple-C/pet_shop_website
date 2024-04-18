@@ -54,7 +54,7 @@ nav > ul > li > .navLink {
 
 @media screen and (max-width: 780px) {
   .navbar {
-    padding: 0.75rem 1.5rem;
+    padding: 0px 1.5rem;
     background: radial-gradient(
       58.94% 138.79% at 32.53% 35.49%,
       #0b0b0b 0%,
