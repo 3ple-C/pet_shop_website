@@ -2,9 +2,9 @@
 import german from '../assets/images_new/Frame 16.png';
 import rott from '../assets/images_new/Frame 15.png';
 import cucassian from '../assets/images_new/Frame 16.png';
-import eskimos from '../assets/images_new/Frame 17.png';
-import alphos from '../assets/images_new/Frame 18.png';
-import golden from '../assets/images_new/Frame 19.png';
+import eskimos from '../assets/images_new/Frame 19.png';
+import alphos from '../assets/images_new/Frame 17.png';
+import golden from '../assets/images_new/Frame 18.png';
 import pitbull from '../assets/images_new/Frame 20.png';
 import bully from '../assets/images_new/Frame 21.png';
 import boer from '../assets/images_new/Frame 22.png';
