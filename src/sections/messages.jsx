@@ -1,5 +1,5 @@
 // Messages Image
-import german from '../assets/images_new/Frame 16.png';
+import german from '../assets/images_new/Frame 14 (2).png';
 import rott from '../assets/images_new/Frame 15.png';
 import cucassian from '../assets/images_new/Frame 16.png';
 import eskimos from '../assets/images_new/Frame 19.png';
@@ -12,7 +12,7 @@ import bull from '../assets/images_new/Frame 23.png';
 import neapolitan from '../assets/images_new/Frame 24.png';
 import cane from '../assets/images_new/Frame 25.png';
 import kangal from '../assets/images_new/Frame 26.png';
-import doberman from '../assets/images_new/Frame 27.png';
+import doberman from '../assets/images_new/Frame 27 (2).png';
 import siberian from '../assets/images_new/Frame 28.png';
 import pomeranian from '../assets/images_new/Frame 29.png';
 

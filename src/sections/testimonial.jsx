@@ -11,14 +11,14 @@ const Testimonial = () => {
 
             <div className="flex flex-col gap-[22px] flex-wrap px-6 md:gap-6">
                 <div className="flex gap-[22px] flex-wrap md:gap-6 md:px-0 md:flex-nowrap">
-                    <TestimonyShort />
-                    <TestimonyLong />
-                    <TestimonyShort />
+                    <TestimonyShort title="Onyema titus chinedu" message="Petshop is one of the original pet sellers, they have varieties of good breeds and they are affordable and trusted." location="Anambra State" />
+                     <TestimonyLong title="Engr Chijioke Akanegbu" message="I have known the brand petshop and the man behind the brand for about 3years now and have closed a couple of deals with him and i can tell you he has not failed.they are a brand you can rely on anytime,anyday." location="Anambra State" />
+                    <TestimonyShort title="Sammy" message="Thank you petshop for always giving a good service, the american pocket bully i purchased from you guys is really doing well and this is to more business from me." location="Imo State"/>
                 </div>
                 <div className="flex gap-[22px] flex-wrap md:gap-6 md:px-0 md:flex-nowrap">
-                    <TestimonyShort />
-                    <TestimonyLong />
-                    <TestimonyShort />
+                    <TestimonyShort title="Momah’s paw hub" message="One of the most reliable pet store i have had to shop from, always trustworthy, full of integrity, i have never had an issue buying from them." location="Rivers State"/>
+                    <TestimonyLong title="Esomchi" message="Petshop has been the best plug to get your pets, i always say there are two comapnies petshop and others, they also provide other value added services like training your pets and i recommend them 100%." location="Imo State"/>
+                    <TestimonyShort title="Urban layout" message="Petshop has good customer service and very reliable to the core, always ready to listen and proffer better solution, i recommend them highly for all of your pet needs." location="Lagos State"/>
                 </div>
             </div>
         </section>

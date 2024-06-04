@@ -1,17 +1,19 @@
 
 const Input = (props) => {
+    const {type, name, placeholder} = props;
     return (
         <div class="m space-y-4">
-            <input type={props.type} id="name" name="name" placeholder={props.placeholder} required
+            <input type={type} id="name" name={name} placeholder={placeholder} required
                 class="w-full form-input border-[#666666] px-3 py-5 border rounded   focus:outline-none " />
         </div>
     );
 };
 
 const Textarea = (props) => {
+    const { placeholder } = props
     return (
         <div class="mb-6 space-y-4">
-            <textarea id="message" name="message" rows="14" placeholder={props.placeholder} required
+            <textarea id="message" name="message" rows="14" placeholder={placeholder} required
                 class="w-full form-textarea border-[#666666] px-3 py-5 border rounded focus:outline-none"></textarea>
         </div>
     );
