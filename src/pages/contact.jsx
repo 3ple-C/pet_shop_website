@@ -40,7 +40,7 @@ const Contact = () => {
                 <div className='xl:w-[60%] order-1 bg-black text-white flex flex-col pt-24 ps-8 pb-32 gap-8 md:pb-0 xl:ps-32 xl:pt-32 lg:rounded-e-[20px]' id='contacts'>
                     <h2 className='text-white text-[32px] leading-[48px] font-bold '>Info</h2>
                     <Contacts source={EmailIcon} contacts="Petshop0999@gmail.com" />
-                    <Contacts source={CallIcon} contacts="+234 812 592 5293" />
+                    <Contacts source={CallIcon} contacts="+234 814 704 1633" />
                     <Contacts source={Location} contacts="Awka, Anambra state." />
                 </div>
 
