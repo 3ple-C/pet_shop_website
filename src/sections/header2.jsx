@@ -2,7 +2,7 @@
 import '../assets/css/main.css';
 
 // components
-import Button from '../components/rtcBtn';
+// import Button from '../components/rtcBtn';
 import bottom_img from '../assets/images_new/Pexels Photo by Nancy Guth.png';
 import bottom_mobile from '../assets/images_new/Pexels Photo by Nancy Guth (2).png'
 
@@ -16,7 +16,7 @@ const Header2 = () => {
                     Welcome to Petshop, your premier destination for finding your new furry family member. Discover a wide selection of dogs ready to bring joy and love into your home today.
                 </p>
 
-                <Button name="SHOP NOW" />
+                <div><a href='https://wa.me/2348125925293' className={`bg-[#F8931F] text-center w-[10.8rem] rounded-[50px] block mx-auto py-4 md:mx-0 text-white`}>SHOP NOW</a></div>
             </div>
 
             <div className='absolute bottom-0 w-[72%] md:w-[58%] start-[50%] translate-x-[-50%] pt-14'>

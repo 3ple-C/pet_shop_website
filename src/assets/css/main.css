@@ -14,12 +14,8 @@
   background-repeat: no-repeat;
   background-position: bottom;
   position: relative;
-  z-index: -1;
 }
 /* footer section */
-/* #contacts{
-  z-index: -1;
-} */
 #contact {
   z-index: 1;
 }

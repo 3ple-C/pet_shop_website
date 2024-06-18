@@ -29,17 +29,6 @@ function Home() {
             <Contact />
             <Testimonial />
             <Footer />
-            
-            {/* <Header src={HeaderImg} src2={HeaderImg2}/>
-             
-            <PicText />
-            
-            
-            
-            <Service />
-            <Join />
-             */}
-            
         </div>
     );
 }

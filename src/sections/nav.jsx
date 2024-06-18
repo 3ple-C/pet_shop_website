@@ -42,9 +42,6 @@ function Navbar() {
                     <li onClick={removeActive}>
                         <HashLink smooth to='/#explore' className={`${styles.navLink}`}>Explore</HashLink>
                     </li>
-                    <li onClick={removeActive}>
-                        <HashLink smooth to='/#testimonial' className={`${styles.navLink}`}>FAQ's</HashLink>
-                    </li>
                     <li onClick={removeActive} className='md:hidden'>
                         <HashLink smooth to='/#contact_us' className={`${styles.navLink}`}><Button name="Contact Us" /></HashLink>
                     </li>

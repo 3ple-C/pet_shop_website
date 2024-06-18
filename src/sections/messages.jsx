@@ -26,9 +26,9 @@ const Messages = () => {
     return (
         <div>
             <section className='space-y-16 pt-16 xl:space-y-20 md:space-y-16 xl:pt-30 lg:pt-28 md:pt-24 pb-6' id='explore'>
-                <div className='text-center lg:text-start space-y-3 lg:space-y-4 lg:px-[6rem]'>
+                <div className='text-center xl:text-start lg:text-center md:text-center space-y-3 lg:space-y-4 lg:px-[5rem]'>
                     <HeadText title="Explore" subtitle="Explore Our Canine Companions" />
-                    <p className='font-medium text-sm px-3 lg:px-0 sm:text-base lg:pt-2 lg:w-[60%]'>Discover your future furry friend! Browse our selection of lovable dogs ready for adoption or purchase. Your perfect match awaits!</p>
+                    <p className='font-medium text-sm px-3 sm:text-base lg:pt-2 xl:px-0 md:mx-auto xl:mx-0 w-[60%]'>Discover your future furry friend! Browse our selection of lovable dogs ready for adoption or purchase. Your perfect match awaits!</p>
                 </div>
 
                 <div className=' messages mx-auto flex flex-wrap justify-center px-2 gap-3' id='messages'>

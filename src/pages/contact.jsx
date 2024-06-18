@@ -44,7 +44,7 @@ const Contact = () => {
                     <Contacts source={Location} contacts="Awka, Anambra state." />
                 </div>
 
-                <div className='lg:relative xl:w-[60%] md:w-[75%] md:order-2 px-4 lg:pe-8' >
+                <div className='lg:relative xl:w-[60%] md:w-[75%] md:mx-auto md:order-2 px-4 lg:pe-8' >
                     <div className="bg-white form-container space-y-7 xl:px-20 lg:space-y-10 md:space-y-7" id='contact' >
                         <FormHeader header="Contact Us" subHeader="Have questions or inquiries? Contact us today! Reach out via phone, email, or fill out the form below. We look forward to hearing from you." className='pt-0' />
 

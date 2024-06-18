@@ -20,15 +20,14 @@ const Footer = ({className}) => {
                             <li><HashLink smooth to="/#welcome" className='text-white'>About Us</HashLink></li>
                             <li className='text-white'><HashLink smooth to='/#services'>Our Services</HashLink></li>
                             <li><HashLink smooth to='/#contact_us' className='text-white'>Contact us</HashLink></li>
-                            <li><HashLink smooth to='/#testimonial' className='text-white'>FAQ's</HashLink></li>
                         </ul>
                     </div>
 
                     <div>
                         <div className='space-x-7 pt-8 xl:space-x-[37px] xl:text-2xl md:text-normal lg:space-x-[40px] md:space-x-[30px] md:pt-0'>
-                            <a href="/"><i class="fa-brands fa-x-twitter"></i></a>
-                            <a href="/"><i class="fa-brands fa-instagram"></i></a>
-                            <a href="/"><i class="fa-brands fa-facebook text-white"></i></a>
+                            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://www.instagram.com/benjamin_petshop?igsh=MW1rZXg0MnRjbjc2dg=="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61550878785515"><i class="fa-brands fa-facebook text-white"></i></a>
                         </div>
                     </div>
                 </section>

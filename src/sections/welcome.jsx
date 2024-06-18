@@ -20,7 +20,7 @@ const Welcome = () => {
             </div>
 
 
-            <div className=' px-4 space-y-3 xl:w-[58%] xl:space-y-3 lg:w-[80%] lg:space-x- md:w-[100%] md:px-0 md:space-y-2  md:order-' id='welcome_txt'>
+            <div className=' px-4 space-y-3 xl:w-[58%] xl:pt-6 xl:space-y-3 lg:w-[80%] lg:space-x- md:w-[100%] md:px-0 md:space-y-2  md:order-' id='welcome_txt'>
                 <HeadText title={headText} subtitle={subHeadText} />
                 <div className='pt-3 pb-8'>
                     <Text content={text} />
@@ -31,8 +31,8 @@ const Welcome = () => {
                 </div>
             </div>
 
-            <div className='w-[40%] space-y- mt-[-65px]' id='desktop_img'>
-                <div className='desktop' id='welcome_img '>
+            <div className='xl:w-[40%] space-y- xl:mt-[-35px]' id='desktop_img'>
+                <div className='desktop xl:mt-0 mt-14' id='welcome_img '>
                     <img src={welcomeImg3} alt="rtc_messages" className='object- ' />
                 </div>
                 <div className='desktop pt-8' id='welcome_img'>
