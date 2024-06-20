@@ -96,6 +96,9 @@
   h1 {
     font-size: 28px !important;
   }
+  .header2{
+    z-index: -1;
+  }
   /* header1 & welcome section */
   .desktop {
     display: none;
